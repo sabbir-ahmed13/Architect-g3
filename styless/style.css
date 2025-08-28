@@ -198,6 +198,22 @@ main > section {
 .sponsor-companies img {
 	filter: grayscale(100%);
 }
+footer .footer-text {
+	text-align: center;
+	padding: 38px 410px;
+}
+
+footer .footer-content {
+	justify-content: center;
+	align-items: center;
+	width: 1440px;
+	height: 100px;
+	margin: 0 auto;
+}
+footer {
+	margin-top: 130px;
+	margin-bottom: 130px;
+}
 
 /* responsive media query for mobile */
 @media screen and (max-width: 576px) {
@@ -234,6 +250,13 @@ main > section {
 		margin-top: 20px;
 		margin-left: 20px;
 	}
+	footer .footer-text {
+		text-align: center;
+		padding: 0px 0px;
+	}
+	footer .footer-content {
+		width: 100%;
+	}
 }
 /* medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -266,5 +289,13 @@ main > section {
 	#experience-badge {
 		margin-top: 20px;
 		margin-left: 20px;
+	}
+	footer .footer-text {
+		text-align: center;
+		padding: 0px 0px;
+	}
+
+	footer .footer-content {
+		width: 100%;
 	}
 }
